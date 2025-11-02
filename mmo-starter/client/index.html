@@ -1,1 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>MMO Starter</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="ui">
+    <div id="topbar">
+      <input id="nameInput" placeholder="your name" maxlength="20"/>
+      <button id="joinBtn">Join</button>
+      <input id="chatBox" placeholder="say something (enter to send)"/>
+    </div>
+    <div id="log"></div>
+  </div>
+  <canvas id="game"></canvas>
+
+  <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
 
